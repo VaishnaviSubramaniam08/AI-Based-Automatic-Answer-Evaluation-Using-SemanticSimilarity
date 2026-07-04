@@ -1,21 +1,3 @@
-## 🎯 Problem Statement
-Coconut grading and weight
-estimation have always been performed by hand,
-thus creating discrepancies and requiring more
-labour. This study describes an example of an AIbased Automated Coconut Sorting and Weight
-Estimation System based on Deep Learning and
-Computer Vision. The system uses an object
-detection model built on YOLO to detect coconuts
-in real world and uses a CNN model for classify
-the coconuts as healthy or defective. The CNN
-model was tested and trained with a dataset
-containing more than 400 coconut images to
-ensure the reliability of the model. Weight
-prediction Geometric features (area, perimeter,
-circularity, and aspect ratio) were obtained using a
-trained regression model, whereas the maturity
-level was predicted using HSV colour analysis.
-The integrated system increases the accuracy of
-grading, minimizes the manual process, and
-increases the efficiency of coconut processing
-industries.
+Problem Statement
+
+Manual evaluation of descriptive answers is a time-consuming, labor-intensive, and subjective process that can lead to inconsistent grading among students. Traditional automated grading systems often rely on keyword matching, which cannot accurately understand the context or meaning of a student's response. As a result, students who express correct concepts using different words may receive unfair scores. Therefore, there is a need for an AI-based automatic answer evaluation system that can understand the semantic meaning of students' answers, compare them with the teacher's model answer, assign accurate marks, and provide meaningful feedback in a fair, consistent, and efficient manner.

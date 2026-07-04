@@ -1,27 +1,27 @@
-## 🥥 Automated Coconut Sorting System Using AI & Machine Learning
+AI-Based Automatic Answer Evaluation Using Semantic Similarity
+Problem Statement
 
-### Problem Statement
+Manual evaluation of descriptive answers is time-consuming, labor-intensive, and may lead to inconsistent grading due to subjective judgment. Traditional automated grading systems rely on keyword matching, which often fails to understand the actual meaning of students' answers, resulting in unfair evaluation.
 
-Manual coconut sorting is a time-consuming and error-prone process. Human inspection often fails to detect cracks, maturity levels, and quality variations, resulting in inconsistent grading and financial loss.
+Proposed Solution
 
-### Proposed Solution
+Develop an AI-based automatic answer evaluation system that uses Natural Language Processing (NLP) and semantic similarity techniques to compare a student's answer with the teacher's model answer. The system automatically calculates similarity, assigns marks, and provides personalized feedback for fair and consistent evaluation.
 
-Develop an AI-based automated coconut sorting system that uses computer vision and machine learning to detect coconuts, identify quality parameters, and classify them based on health, weight, maturity, and appearance.
+Key Technologies
+Sentence-BERT (SBERT) for semantic similarity
+Natural Language Processing (NLP)
+Python
+FastAPI/Flask for backend
+React for frontend
+MongoDB for data storage
+Scikit-learn for similarity scoring
+Novelty
 
-### Key Technologies
+An intelligent answer evaluation platform that understands the meaning of descriptive answers rather than relying on keyword matching. It automatically generates marks, provides constructive feedback, and ensures consistent and unbiased assessment.
 
-* YOLO for coconut detection
-* CNN for crack and view classification
-* Machine Learning for weight prediction
-* OpenCV for image processing
-* Streamlit for visualization dashboard
-
-### Novelty
-
-A single AI platform combining crack detection, weight estimation, maturity classification, and automated grading for efficient coconut quality inspection.
-
-### Current Status
+Current Status
 
 ✅ Problem identification completed
 ✅ Literature survey completed
-🔄 Dataset collection and model development in progress
+🔄 Dataset collection and AI model development in progress
+🔄 Web application development in progress
